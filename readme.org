@@ -1,0 +1,14 @@
+* Readme
+  This repository is compatible with stow, hence to set it up just do:
+  #+begin_example
+  git clone --recurse-submodules git@gitlab.com:janmasrovira/chemacs-config.git dotfiles/chemacs
+  cd dotfiles
+  stow -n -v 2 chemacs # to check if everything is fine
+  stow chemacs
+  #+end_example
+
+  To run emacs:
+  #+begin_example
+  emacs --with-profile space # for spacemacs
+  emacs --with-profile doom # for doom emacs
+  #+end_example
